@@ -1,27 +1,32 @@
 {
-   "background": {
-      "persistent": false,
-      "scripts": [ "pesticide-injector.js" ]
-   },
-   "browser_action": {
-      "default_icon": {
-         "19": "images/toolbar-chrome.png",
-         "38": "images/toolbar-chrome@2x.png"
-      },
-      "default_title": "Toggle Pesticide"
-   },
-   "description": "This extension inserts the Pesticide CSS into the current page, outlining each element to better see placement on the page.",
-   "icons": {
-      "128": "icon_128.png",
-      "16": "icon_16.png",
-      "48": "icon_48.png"
-   },
-   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAumbSGLMHHfi53NaAMaUqkYQgVdpXogzndyizWg8F93zMhiw+P0aR7BbVn8Zyh7+/94Dw+L1C6CRj+KM2BR3vkREqA6SQ6aeovYRWAdCLdo8AIvvGo3dViekDspfItiLMsnlRwWbaWYyqbmi2+lDbAr2ij+nAEyJwZMBSlB8MBsmm/EaASvcMtazprNRPJm8r/MQiQdJ6ybKERjXH0ocwWF6m3MRa0aGP/PgOHvxPfp3jkGdBwHRFFgIj46/gJ3DwhSXsx7wsCL2U84XAi9+mMkMYKA70lQaWWfJAMmFdd/6dgltNOKG/g9cvOvHgD6d7y9gz+TJvLeZtwLN7myJvewIDAQAB",
-   "manifest_version": 2,
-   "name": "Pesticide for Safari",
-   "permissions": [ "activeTab" ],
-   "short_name": "Pesticide",
-   "update_url": "https://clients2.google.com/service/update2/crx",
-   "version": "1.0.0",
-   "web_accessible_resources": [ "pesticide.min.css" ]
+    "manifest_version": 2,
+    "default_locale": "en",
+
+    "name": "__MSG_extension_name__",
+    "description": "__MSG_extension_description__",
+    "version": "1.0",
+
+    "icons": {
+        "16": "images/icon-16.png",
+        "48": "images/icon-48.png",
+        "96": "images/icon-96.png",
+        "128": "images/icon-128.png",
+        "256": "images/icon-256.png",
+        "512": "images/icon-512.png"
+    },
+
+    "background": {
+        "scripts": [ "pesticide-injector.js", "background.js" ]
+    },
+
+    "browser_action": {
+        "default_icon": {
+            "16": "images/toolbar-icon-16.png",
+            "32": "images/toolbar-icon-32.png"
+        },
+        "default_title": "Toggle Pesticide"
+    },
+
+    "permissions": [ "activeTab", "nativeMessaging" ],
+    "web_accessible_resources": [ "pesticide.min.css" ]
 }

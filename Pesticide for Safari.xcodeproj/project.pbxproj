@@ -16,13 +16,10 @@
 		194DCDD625CB006200172860 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194DCDD525CB006200172860 /* SafariWebExtensionHandler.swift */; };
 		194DCDEC25CB006300172860 /* pesticide-injector.js in Resources */ = {isa = PBXBuildFile; fileRef = 194DCDE325CB006300172860 /* pesticide-injector.js */; };
 		194DCDED25CB006300172860 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 194DCDE425CB006300172860 /* images */; };
-		194DCDEE25CB006300172860 /* _metadata in Resources */ = {isa = PBXBuildFile; fileRef = 194DCDE525CB006300172860 /* _metadata */; };
-		194DCDEF25CB006300172860 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 194DCDE625CB006300172860 /* README.md */; };
-		194DCDF025CB006300172860 /* icon_128.png in Resources */ = {isa = PBXBuildFile; fileRef = 194DCDE725CB006300172860 /* icon_128.png */; };
 		194DCDF125CB006300172860 /* pesticide.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 194DCDE825CB006300172860 /* pesticide.min.css */; };
-		194DCDF225CB006300172860 /* icon_16.png in Resources */ = {isa = PBXBuildFile; fileRef = 194DCDE925CB006300172860 /* icon_16.png */; };
 		194DCDF325CB006300172860 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 194DCDEA25CB006300172860 /* manifest.json */; };
-		194DCDF425CB006300172860 /* icon_48.png in Resources */ = {isa = PBXBuildFile; fileRef = 194DCDEB25CB006300172860 /* icon_48.png */; };
+		199F68F025CB4AB2004E1766 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 199F68EF25CB4AB2004E1766 /* _locales */; };
+		199F68F825CB509D004E1766 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 199F68F725CB509D004E1766 /* background.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,13 +61,10 @@
 		194DCDD825CB006200172860 /* Pesticide_for_Safari_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Pesticide_for_Safari_Extension.entitlements; sourceTree = "<group>"; };
 		194DCDE325CB006300172860 /* pesticide-injector.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "pesticide-injector.js"; path = "Resources/pesticide-injector.js"; sourceTree = "<group>"; };
 		194DCDE425CB006300172860 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = Resources/images; sourceTree = "<group>"; };
-		194DCDE525CB006300172860 /* _metadata */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _metadata; path = Resources/_metadata; sourceTree = "<group>"; };
-		194DCDE625CB006300172860 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = Resources/README.md; sourceTree = "<group>"; };
-		194DCDE725CB006300172860 /* icon_128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_128.png; path = Resources/icon_128.png; sourceTree = "<group>"; };
 		194DCDE825CB006300172860 /* pesticide.min.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = pesticide.min.css; path = Resources/pesticide.min.css; sourceTree = "<group>"; };
-		194DCDE925CB006300172860 /* icon_16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_16.png; path = Resources/icon_16.png; sourceTree = "<group>"; };
 		194DCDEA25CB006300172860 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = Resources/manifest.json; sourceTree = "<group>"; };
-		194DCDEB25CB006300172860 /* icon_48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_48.png; path = Resources/icon_48.png; sourceTree = "<group>"; };
+		199F68EF25CB4AB2004E1766 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _locales; path = Resources/_locales; sourceTree = "<group>"; };
+		199F68F725CB509D004E1766 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = Resources/background.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,14 +141,11 @@
 			isa = PBXGroup;
 			children = (
 				194DCDE325CB006300172860 /* pesticide-injector.js */,
+				199F68EF25CB4AB2004E1766 /* _locales */,
 				194DCDE425CB006300172860 /* images */,
-				194DCDE525CB006300172860 /* _metadata */,
-				194DCDE625CB006300172860 /* README.md */,
-				194DCDE725CB006300172860 /* icon_128.png */,
 				194DCDE825CB006300172860 /* pesticide.min.css */,
-				194DCDE925CB006300172860 /* icon_16.png */,
 				194DCDEA25CB006300172860 /* manifest.json */,
-				194DCDEB25CB006300172860 /* icon_48.png */,
+				199F68F725CB509D004E1766 /* background.js */,
 			);
 			name = Resources;
 			path = "Pesticide for Safari Extension";
@@ -250,13 +241,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				194DCDF125CB006300172860 /* pesticide.min.css in Resources */,
-				194DCDEE25CB006300172860 /* _metadata in Resources */,
-				194DCDF025CB006300172860 /* icon_128.png in Resources */,
-				194DCDF225CB006300172860 /* icon_16.png in Resources */,
 				194DCDF325CB006300172860 /* manifest.json in Resources */,
 				194DCDED25CB006300172860 /* images in Resources */,
-				194DCDEF25CB006300172860 /* README.md in Resources */,
-				194DCDF425CB006300172860 /* icon_48.png in Resources */,
+				199F68F025CB4AB2004E1766 /* _locales in Resources */,
+				199F68F825CB509D004E1766 /* background.js in Resources */,
 				194DCDEC25CB006300172860 /* pesticide-injector.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -421,8 +409,12 @@
 		194DCDDC25CB006200172860 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Pesticide for Safari Extension/Pesticide_for_Safari_Extension.entitlements";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 9;
+				DEVELOPMENT_TEAM = N8TL668TV9;
 				INFOPLIST_FILE = "Pesticide for Safari Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -440,8 +432,12 @@
 		194DCDDD25CB006200172860 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Pesticide for Safari Extension/Pesticide_for_Safari_Extension.entitlements";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 9;
+				DEVELOPMENT_TEAM = N8TL668TV9;
 				INFOPLIST_FILE = "Pesticide for Safari Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -463,8 +459,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Pesticide for Safari/Pesticide_for_Safari.entitlements";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 9;
+				DEVELOPMENT_TEAM = N8TL668TV9;
 				INFOPLIST_FILE = "Pesticide for Safari/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -484,8 +483,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Pesticide for Safari/Pesticide_for_Safari.entitlements";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 9;
+				DEVELOPMENT_TEAM = N8TL668TV9;
 				INFOPLIST_FILE = "Pesticide for Safari/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

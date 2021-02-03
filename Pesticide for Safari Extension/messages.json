@@ -1,0 +1,11 @@
+{
+    "extension_name": {
+        "message": "Pesticide for Safari",
+        "description": "Pesticide"
+    },
+    "extension_description": {
+        "message": "Squash your CSS layout bugs!",
+        "description": "When activated, the extension outlines each element on a webpage to better see placement on the page."
+    }
+}
+
